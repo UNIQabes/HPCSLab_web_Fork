@@ -361,3 +361,5 @@ export const collections = {
     }),
   }),
 };
+
+export const show_bachelar = false;
