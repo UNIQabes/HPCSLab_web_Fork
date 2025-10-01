@@ -27,8 +27,6 @@ const generalSession: InformationSession = {
     end: "19:45",
   },
 };
-
-const generalSessionFormLink = "https://forms.gle/meqA8rHAmdPdb2Cd9";
 ---
 
 <Base
@@ -86,20 +84,10 @@ const generalSessionFormLink = "https://forms.gle/meqA8rHAmdPdb2Cd9";
     <Typography>
       全体説明会は HPCS
       研究室に所属する先生が原則全員参加し，各チームの研究内容について紹介する説明会です．
-      以下のボタンをクリックし，リンク先のGoogleフォームに必要な情報を入力・送信して下さい．
-      もちろん，飛び入り参加も大歓迎です．直接，開催場所にお越し下さい！
     </Typography>
-    <a href={generalSessionFormLink} class="general-session-link">
-      全体説明会申し込みフォーム</a
-    >
+
     <H2>各チームの説明会</H2>
-    <Typography>
-      各チームの説明会日程は下に記載されています．
-      もちろん，飛び入り参加も大歓迎ですが，事前に申し込みいただけるとこちらで来る予定の人を把握できるためありがたいです！
-    </Typography>
-    <a href={generalSessionFormLink} class="general-session-link">
-      チーム説明会申し込みフォーム
-    </a>
+    <Typography> 各チームの説明会日程は下に記載されています． </Typography>
   </H1Section>
   <H1Section backgroundInverted={true} fullW={true}>
     <H2 backgroundInverted={true} slot="heading">チーム一覧</H2>
